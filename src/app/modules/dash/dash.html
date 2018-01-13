@@ -1,0 +1,20 @@
+<br>
+<br>
+<div class="container">
+  <div class="row">
+
+    <div class="col-md-12">
+      <app-ngx-editor [placeholder]="'Enter text here...'"
+      [spellcheck]="true" [(ngModel)]="notification"></app-ngx-editor>
+      <div *ngIf="info.length <= 0">
+        <button type="button" class="btn btn-dark-green waves-light"
+        mdbRippleRadius (click)="create()">Create</button>
+      </div>
+      <div *ngIf="info.length > 0">
+        <button type="button" class="btn btn-amber waves-light"
+        mdbRippleRadius (click)="update()">update</button>
+      </div>
+
+    </div>
+  </div>
+</div>
