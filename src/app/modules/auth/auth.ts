@@ -20,7 +20,7 @@ export class AuthComponent {
             {
                 this.createForm();
             }
-    public loginUrl = 'https://kizusi.herokuapp.com/login/';
+    public loginUrl = 'https://kizusiadmin.herokuapp.com/login/';
 
         createForm()
         {
