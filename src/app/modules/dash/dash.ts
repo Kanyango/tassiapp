@@ -15,7 +15,7 @@ export class DashComponent implements OnInit {
 
   model: any;
   notification: any;
-  info: Array<Nots>;
+  info: Array<Nots> = [];
 
   ngOnInit()
   {
