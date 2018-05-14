@@ -36,11 +36,11 @@ export class AuthComponent {
                           .toPromise()
                            .then(res =>
                                {
-                                  console.log(res.json());
-                                  let token_data = res.json();
-                                  let token = token_data.token;
-                                  console.log(token);
-                                  localStorage.setItem('tassia-app', token);
+                                  //console.log(res.json());
+                                  //let token_data = res.json();
+                                  //let token = token_data.token;
+                                 // console.log(token);
+                                  //localStorage.setItem('tassia-app', token);
                                    //$window.localStorage['kizusi-app-token'] = token;
                                    this.router.navigate(['/dash']);
                               })
