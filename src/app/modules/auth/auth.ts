@@ -36,6 +36,7 @@ export class AuthComponent {
                           .toPromise()
                            .then(res =>
                                {
+                                  console.log('No wahala');
                                   //console.log(res.json());
                                   //let token_data = res.json();
                                   //let token = token_data.token;
