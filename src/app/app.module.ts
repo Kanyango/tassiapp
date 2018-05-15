@@ -46,10 +46,11 @@ import { StaffComponent } from './modules/staff/staff';
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyCsuGIJdVor_CBVRJ7Qffm7iEFJecVAHHk'
     }),
+    NgxEditorModule,
     ReactiveFormsModule,
     FormsModule,
-    AppRoutingModule,
-    NgxEditorModule
+    AppRoutingModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent],
