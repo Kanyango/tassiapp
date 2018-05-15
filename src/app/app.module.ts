@@ -13,7 +13,7 @@ import { ContactComponent } from './modules/contact/contact';
 import { AboutComponent } from './modules/about/about';
 import { GalleryComponent } from './modules/gallery/gallery';
 import { MngmntComponent } from './modules/mngmnt/mngmnt';
-import { NgxEditorModule } from 'ngx-editor/ngx-editor.module';
+import { NgxEditorModule } from 'ngx-editor';
 import { FormsModule,FormGroup,FormControl } from '@angular/forms'
 import { AdminComponent } from './modules/admin/admin';
 import { HttpModule }    from '@angular/http';
