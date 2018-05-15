@@ -14,7 +14,7 @@ export class DashComponent implements OnInit {
   public carsUrl = 'https://kizusi.herokuapp.com/notifications/';
 
   model: any;
-  notification: any = '';
+  notification = '';
   info: Array<Nots> = [];
 
   ngOnInit()
