@@ -11,7 +11,7 @@ import { Nots } from '../admin/nots';
 export class DashComponent implements OnInit {
 
   constructor(private http: Http){}
-  public carsUrl = 'https://kizusi.herokuapp.com/notifications/';
+  public carsUrl = 'https://kizusiadmin.herokuapp.com/notifications/';
 
   model: any;
   notification = '';
