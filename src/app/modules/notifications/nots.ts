@@ -13,7 +13,7 @@ export class NotsComponent implements OnInit {
   info: any;
   model: any;
   notification: any;
-  public carsUrl = 'https://kizusi.herokuapp.com/notifications/';
+  public carsUrl = 'https://kizusiadmin.herokuapp.com/notifications/';
   
   ngOnInit()
   {
