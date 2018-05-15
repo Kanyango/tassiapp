@@ -4,11 +4,8 @@
   <div class="row">
 
     <div class="col-md-12">
-      <h1>Niko Hao</h1>
-      <app-ngx-editor></app-ngx-editor>
-     <!--<app-ngx-editor [placeholder]="'Enter text here...'"
-        [spellcheck]="true" [(ngModel)]="notification">
-      </app-ngx-editor> -->
+      <h1>Create notification here</h1>
+      <textarea [(ngModel)]="notification"  mdbInputDirective type="text" class="md-textarea form-control" cols="90" rows="10"></textarea>
       
       <div *ngIf="info.length <= 0">
         <button type="button" class="btn btn-dark-green waves-light"
