@@ -9,7 +9,8 @@ import { MngmntComponent } from './modules/mngmnt/mngmnt';
 import { AdminComponent } from './modules/admin/admin';
 import { NotsComponent} from './modules/notifications/nots';
 import { DashComponent } from './modules/dash/dash';
-import { StaffComponent } from './modules/staff/staff'
+import { StaffComponent } from './modules/staff/staff';
+import { DownloadsComponent } from './modules/downloads/downloads';
 // import { ServicesComponent } from './modules/services/services';
 // import { AboutComponent } from './modules/about/about';
 // import { CarsComponent } from './modules/cars/cars';
@@ -32,7 +33,8 @@ const routes: Routes = [
         { path: 'admin', component: AdminComponent },
         { path: 'notification', component: NotsComponent },
         { path: 'dash', component: DashComponent },
-        { path: 'staff', component: StaffComponent }
+        { path: 'staff', component: StaffComponent },
+        { path: 'downloads', component: DownloadsComponent }
         // { path: 'services', component: ServicesComponent},
         // { path: 'cars', component: CarsComponent},
         // { path: 'contact', component: ContactComponent},
