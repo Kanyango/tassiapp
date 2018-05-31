@@ -21,6 +21,7 @@ import { EscapeHtmlPipe } from './modules/notifications/pipy';
 import { AuthComponent } from './modules/auth/auth';
 import { DashComponent } from './modules/dash/dash';
 import { StaffComponent } from './modules/staff/staff';
+import { DownloadsComponent } from './modules/downloads/downloads';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { StaffComponent } from './modules/staff/staff';
     NotsComponent,
     AuthComponent,
     DashComponent,
-    StaffComponent
+    StaffComponent,
+    DownloadsComponent
   ],
   imports: [
     BrowserModule,
