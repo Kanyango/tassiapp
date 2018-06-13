@@ -15,6 +15,8 @@ export class GalleryComponent implements OnInit
 
     this.images =
                   [
+                  {img: "/../../../assets/The school cabinet.JPG"},
+                  {img: "/../../../assets/PP2 ANASTACIA.JPG"},
                   //{img: "/../../../assets/gal_28.JPG"},
                   //{img: "/../../../assets/gal_4.JPG"},
                   {img: "/../../../assets/gal_16.JPG"},
